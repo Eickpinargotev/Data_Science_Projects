@@ -21,5 +21,5 @@
 
 Este proyecto demuestra la efectividad de varios enfoques de procesamiento de lenguaje natural (NLP) y algoritmos de clasificación en la detección de la polaridad de reseñas cinematográficas.
 
-## Fuentre de los datos
+## Fuente de los datos
 Los datos fueron proporcionados por Andrew L. Maas, Raymond E. Daly, Peter T. Pham, Dan Huang, Andrew Y. Ng, y Christopher Potts. (2011). Learning Word Vectors for Sentiment Analysis. La Reunión Anual 49 de la Asociación de Lingüística Computacional (ACL 2011).
