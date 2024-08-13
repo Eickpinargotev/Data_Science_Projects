@@ -27,12 +27,6 @@ Este proyecto se enfoca en desarrollar un modelo de machine learning para predec
 
 El proyecto logró desarrollar un modelo predictivo efectivo para estimar el valor de mercado de autos usados. El `LightGBMRegressor` ofreció el mejor equilibrio entre velocidad y precisión, lo que lo convierte en la opción óptima para su implementación en la aplicación de Rusty Bargain.
 
-## Instalación y Uso
-
-1. Clona el repositorio en tu máquina local.
-2. Instala las librerías necesarias usando `pip install -r requirements.txt`.
-3. Ejecuta el notebook de Jupyter para entrenar el modelo y evaluar los resultados.
-
 ## Trabajo Futuro
 
 Las mejoras futuras podrían incluir la experimentación con características adicionales, como variaciones de precios regionales y tendencias estacionales, para mejorar aún más la precisión del modelo.
