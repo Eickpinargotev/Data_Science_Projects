@@ -32,9 +32,9 @@ Cada carpeta de proyecto contiene su propio archivo `README.md` con instruccione
 
 ### Estructura de la Carpeta
 
-- **/Rusty-Bargain-Predictor/**: Contiene el proyecto sobre la predicción del valor de autos usados.
-- **/Sweet-Lift-Taxi-Demand/**: Contiene el proyecto sobre la predicción de demanda de taxis.
-- **/Film-Junky-Union-Classifier/**: Contiene el proyecto de clasificación de reseñas de películas.
+- **/Predictor-de-Valor-de-Mercado-Rusty-Bargain/**: Contiene el proyecto sobre la predicción del valor de autos usados.
+- **/Optimización-de-Demanda-de-Taxis-con-ML-en-Sweet-Lift-Taxi/**: Contiene el proyecto sobre la predicción de demanda de taxis.
+- **/Clasificación-Automatizada-de-Reseñas-en-Film-Junky-Union/**: Contiene el proyecto de clasificación de reseñas de películas.
 - **/Soluciones-Avanzadas-ML-Seguros-y-Ofuscación-de-Datos/**: Contiene el proyecto sobre soluciones de machine learning para seguros y técnicas de ofuscación de datos.
 
 ## Requisitos
