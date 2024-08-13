@@ -1,41 +1,41 @@
-# Predicting Market Value for Rusty Bargain Used Cars
+# Predicción del Valor de Mercado para Autos Usados en Rusty Bargain
 
-## Project Overview
+## Descripción del Proyecto
 
-This project focuses on developing a machine learning model to predict the market value of used cars for the Rusty Bargain platform. The application aims to help users quickly determine the market value of their vehicles by leveraging historical data on car specifications, equipment versions, and pricing.
+Este proyecto se enfoca en desarrollar un modelo de machine learning para predecir el valor de mercado de autos usados en la plataforma Rusty Bargain. La aplicación está diseñada para ayudar a los usuarios a determinar rápidamente el precio de sus vehículos utilizando datos históricos de especificaciones técnicas, versiones de equipamiento y precios.
 
-### Key Objectives:
-- **Prediction Accuracy:** Ensure high-quality predictions that align with market values.
-- **Prediction Speed:** Optimize the model for fast and efficient predictions.
-- **Training Time:** Minimize the time required to train the model without sacrificing accuracy.
+### Objetivos Principales:
+- **Calidad de la Predicción:** Garantizar predicciones precisas y alineadas con los valores de mercado.
+- **Velocidad de Predicción:** Optimizar el modelo para ofrecer predicciones rápidas y eficientes.
+- **Tiempo de Entrenamiento:** Minimizar el tiempo necesario para entrenar el modelo sin comprometer la precisión.
 
-## Project Structure
+## Estructura del Proyecto
 
-1. **Data Preparation:**
-   - Data cleaning and feature engineering to handle missing values, remove duplicates, and encode categorical variables.
-   - Scaling numerical features to improve model performance.
+1. **Preparación de Datos:**
+   - Limpieza de datos y generación de características para manejar valores nulos, eliminar duplicados y codificar variables categóricas.
+   - Escalado de características numéricas para mejorar el rendimiento del modelo.
 
-2. **Model Training:**
-   - Implementation of various regression models, including `RandomForestRegressor`, `CatBoostRegressor`, `LightGBMRegressor`, and `XGBoostRegressor`.
-   - Hyperparameter tuning to optimize model performance.
+2. **Entrenamiento del Modelo:**
+   - Implementación de varios modelos de regresión, incluyendo `RandomForestRegressor`, `CatBoostRegressor`, `LightGBMRegressor` y `XGBoostRegressor`.
+   - Ajuste de hiperparámetros para optimizar el rendimiento del modelo.
 
-3. **Model Evaluation:**
-   - Comparison of models based on RMSE (Root Mean Square Error) and computational efficiency.
-   - Analysis of model predictions to ensure they align with the real-world market values.
+3. **Evaluación del Modelo:**
+   - Comparación de los modelos basados en RMSE (Root Mean Square Error) y eficiencia computacional.
+   - Análisis de las predicciones del modelo para asegurar su alineación con los valores de mercado reales.
 
-## Conclusion
+## Conclusión
 
-The project successfully developed a predictive model for estimating the market value of used cars. The `LightGBMRegressor` provided the best balance between speed and accuracy, making it the optimal choice for deployment in the Rusty Bargain application.
+El proyecto logró desarrollar un modelo predictivo efectivo para estimar el valor de mercado de autos usados. El `LightGBMRegressor` ofreció el mejor equilibrio entre velocidad y precisión, lo que lo convierte en la opción óptima para su implementación en la aplicación de Rusty Bargain.
 
-## Installation and Usage
+## Instalación y Uso
 
-1. Clone the repository to your local machine.
-2. Install the required Python libraries using `pip install -r requirements.txt`.
-3. Run the Jupyter notebook to train the model and evaluate the results.
+1. Clona el repositorio en tu máquina local.
+2. Instala las librerías necesarias usando `pip install -r requirements.txt`.
+3. Ejecuta el notebook de Jupyter para entrenar el modelo y evaluar los resultados.
 
-## Future Work
+## Trabajo Futuro
 
-Future improvements could include experimenting with additional features, such as regional price variations and seasonal trends, to further enhance model accuracy.
+Las mejoras futuras podrían incluir la experimentación con características adicionales, como variaciones de precios regionales y tendencias estacionales, para mejorar aún más la precisión del modelo.
 
 ## Dataset link
 https://practicum-content.s3.us-west-1.amazonaws.com/datasets/car_data.csv
