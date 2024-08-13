@@ -28,7 +28,7 @@ Esta carpeta contiene varios proyectos de machine learning, cada uno diseñado p
 
 ## Uso
 
-Cada carpeta de proyecto contiene su propio archivo `README.md` con instrucciones detalladas sobre cómo replicar los resultados. Para ejecutar los notebooks, es necesario tener instalado Python y las librerías especificadas en cada archivo `requirements.txt`.
+Cada carpeta de proyecto contiene su propio archivo `README.md` con instrucciones detalladas sobre cómo replicar los resultados. Para ejecutar los notebooks, es necesario tener instalado Python y las librerías necesarias.
 
 ### Estructura de la Carpeta
 
